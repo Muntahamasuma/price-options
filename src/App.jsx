@@ -1,17 +1,16 @@
+import "./App.css";
 
-import './App.css'
+import Navbar from "./components/Navbar/Navbar";
+import PriceOptions from "./components/PriceOptions/PriceOptions";
+
 
 function App() {
-
-
   return (
     <>
-      
-      <h1 className='text-4xl bg-rose-400'>Vite + React</h1>
-      
-      
+      <Navbar></Navbar>
+      <PriceOptions></PriceOptions>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
